@@ -1,8 +1,6 @@
 # Hackeando Redes Wireless de Forma Simples
 Testando a vulnerabilidade de uma rede wireless e simulando uma real operação de Red Team.
 
-## Aviso Legal
-
 > [!WARNING]
 > Este projeto é destinado apenas para fins educacionais e de teste em redes que você possui ou tem permissão explícita para testar. A utilização destas ferramentas em redes sem autorização é ilegal e antiética. O uso inadequado deste projeto pode resultar em consequências legais graves. O autor não se responsabiliza por qualquer uso indevido ou danos causados pela aplicação deste projeto.
 
