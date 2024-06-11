@@ -1,10 +1,11 @@
-Operação de Red Team real, onde você utilizaria `aircrack-ng` para capturar pacotes e recuperar a handshake de uma rede Wi-Fi, e em seguida, usaria `crunch` para gerar uma lista de senhas que seria alimentada diretamente no `aircrack-ng` para tentar quebrar a senha da rede.
+# Operação real de Red Team
+onde você utilizaria o `aircrack-ng` para capturar pacotes e recuperar o handshake de uma rede Wi-Fi, e em seguida, usaria o `crunch` para gerar uma lista de senhas que seria alimentada diretamente no `aircrack-ng` para tentar quebrar a senha da rede.
 
-### Operação de Red Team: Exemplo Fictício
+### Operação de Red Team: Exemplo Prático
 
 #### Cenário
 
-Você é membro de uma equipe de Red Team contratada para testar a segurança de uma empresa. Uma das tarefas é avaliar a segurança da rede Wi-Fi da empresa, identificada como `Empresa_WIFI`. A rede utiliza WPA2-PSK (Pre-Shared Key) para autenticação.
+Você é membro de uma equipe de Red Team contratada para testar a segurança de uma empresa. Uma das tarefas é avaliar a segurança da rede Wi-Fi da mesma, identificada como `Empresa_WIFI`. A rede utiliza WPA2-PSK (Pre-Shared Key) para autenticação.
 
 #### Passo 1: Preparação do Ambiente
 
