@@ -1,4 +1,5 @@
-A ferramenta Crunch é um gerador de senhas de linha de comando altamente versátil, usado para criar listas de senhas (wordlists) personalizadas. É especialmente útil em testes de penetração, ataques de força bruta, e para qualquer situação que exija a geração de senhas ou combinações de caracteres.
+# Crunch
+é um gerador de senhas de linha de comando altamente versátil, usado para criar listas de senhas (wordlists) personalizadas. É especialmente útil em testes de penetração, ataques de força bruta, e para qualquer situação que exija a geração de senhas ou combinações de caracteres.
 
 ### Características Principais do Crunch
 
@@ -60,29 +61,6 @@ crunch 10 10 -t %@@@#@@%%
 ```
 Este comando gera senhas de 10 caracteres onde o 6º caractere é fixo como `#`, os primeiros 3 são dígitos, os próximos 3 são letras minúsculas e os últimos 2 são dígitos novamente.
 
-### Opções Avançadas
-
-#### 1. Especificar Conjuntos de Caracteres com Arquivo
-
-Crie um arquivo `charset.lst` com o seguinte conteúdo:
-```
-symbols @#$%^&*
-```
-
-E use o arquivo no comando:
-
-```bash
-crunch 8 8 -f charset.lst symbols -t @@^^@@^^
-```
-Aqui, `charset.lst` define os símbolos específicos a serem usados.
-
-#### 2. Limitar Repetição de Caracteres
-
-```bash
-crunch 8 8 abcdefghijklmnopqrstuvwxyz -d 2@
-```
-Este comando limita a repetição de qualquer caractere a no máximo 2 vezes consecutivas.
-
 ### Combinando com Outras Ferramentas
 
 Crunch é frequentemente usado em conjunto com outras ferramentas para testes de penetração. Por exemplo, para usar uma lista de senhas gerada pelo Crunch com `aircrack-ng`:
@@ -96,5 +74,3 @@ Aqui, `senhas.txt` é a lista de senhas gerada pelo Crunch, `-b [BSSID]` é o en
 ### Considerações Finais
 
 Crunch é uma ferramenta poderosa que oferece uma grande flexibilidade na criação de listas de senhas personalizadas. No entanto, é importante usar essa ferramenta de maneira ética e legal, respeitando as leis e políticas de segurança de TI. A utilização de Crunch ou qualquer ferramenta similar para acessar redes ou sistemas sem permissão é ilegal e antiético. Use Crunch apenas em redes e sistemas que você tem autorização para testar.
-
-Se tiver mais perguntas ou precisar de mais detalhes sobre o uso do Crunch, sinta-se à vontade para perguntar!
